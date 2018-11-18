@@ -19,7 +19,9 @@ public class fileproject {
 				// taking path from text file
 				
 				String FilePath = line;
+				System.out.println(FilePath);
 				File f = new File(FilePath);
+				
 				
 				//creating output file
 				
